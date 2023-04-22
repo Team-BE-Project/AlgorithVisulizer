@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pseudocode Animation</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <h1>Pseudocode Animation</h1>
+  <div>
+    <label for="pseudocode-input">Enter pseudocode:</label>
+    <br>
+    <textarea id="pseudocode-input" rows="10" cols="50"></textarea>
+  </div>
+  <div>
+    <button id="start-button" onclick="startAnimation()">Start</button>
+    <button id="prev-button" onclick="prevStep()">Prev</button>
+    <button id="next-button" onclick="nextStep()">Next</button>
+  </div>
+  <div>
+    <pre id="visualization"></pre>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
